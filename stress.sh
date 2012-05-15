@@ -18,7 +18,7 @@ do
     gzip -d $OutDir/$TmpFile.gz > /dev/null
   done
   rm -f $OutDir/$TmpFile
-  echo "====="
+  echo "=========="
 done
 
 exit 0
